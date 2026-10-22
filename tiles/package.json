@@ -23,7 +23,7 @@
     "@cesium/engine": "^6.1.0",
     "@google-cloud/firestore": "^7.1.0",
     "@google-cloud/storage": "^7.7.0",
-    "@maplibre/maplibre-gl-native": "^5.2.0",
+    "@maplibre/maplibre-gl-native": "5.4.1",
     "@nestjs/cli": "^10.3.2",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.1.0",
@@ -86,6 +86,6 @@
     "testEnvironment": "node"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": "^22.23.4 || ^24.22.1 || ^26.12.1"
   }
 }
