@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: lts/*
+          node-version: 22.23.4
       - uses: actions/checkout@v4
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path

@@ -7,7 +7,7 @@
   "browser": "./dist/reearth-cms.umd.js",
   "types": "./dist/reearth-cms.d.ts",
   "engines": {
-    "node": ">=16"
+    "node": "^22.23.4 || ^24.22.1 || ^26.12.1"
   },
   "scripts": {
     "start": "yarn && vite",
